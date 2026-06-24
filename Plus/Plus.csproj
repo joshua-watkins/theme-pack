@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>14</LangVersion>
+
+		<!-- VSIX settings -->
+		<VSSDKBuildToolsAutoSetup>true</VSSDKBuildToolsAutoSetup>
+		<CopyBuildOutputToOutputDirectory>False</CopyBuildOutputToOutputDirectory>
+		<CopyOutputSymbolsToOutputDirectory>False</CopyOutputSymbolsToOutputDirectory>
+		<IncludeAssemblyInVSIXContainer>False</IncludeAssemblyInVSIXContainer>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="Dark+.pkgdef">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Light+.pkgdef">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="ThemeRegistration.pkgdef">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectCapability Include="CreateVsixContainer" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.14.40265" ExcludeAssets="runtime" />
+		<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="18.5.40034" />
+	</ItemGroup>
+</Project>
