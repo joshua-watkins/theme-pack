@@ -10,6 +10,9 @@
   <Project Path="Kimbie/Kimbie.csproj" Id="bbf89758-d986-4d71-a695-b3d4a8866fb3">
     <Deploy />
   </Project>
+  <Project Path="Monokai/Monokai.csproj" Id="6461ccc2-46c1-4df3-87f0-95bb5f512465">
+    <Deploy />
+  </Project>
   <Project Path="Plus/Plus.csproj" Id="33e681de-cc05-4fef-954d-5bb5b4c3f767">
     <Deploy />
   </Project>
