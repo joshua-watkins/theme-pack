@@ -7,6 +7,9 @@
   <Project Path="Abyss/Abyss.csproj" Id="4d46ad86-7bf8-4910-a558-4f60ae84ae76">
     <Deploy />
   </Project>
+  <Project Path="Kimbie/Kimbie.csproj" Id="bbf89758-d986-4d71-a695-b3d4a8866fb3">
+    <Deploy />
+  </Project>
   <Project Path="Plus/Plus.csproj" Id="33e681de-cc05-4fef-954d-5bb5b4c3f767">
     <Deploy />
   </Project>
