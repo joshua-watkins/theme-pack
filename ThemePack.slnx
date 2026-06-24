@@ -16,6 +16,9 @@
   <Project Path="Plus/Plus.csproj" Id="33e681de-cc05-4fef-954d-5bb5b4c3f767">
     <Deploy />
   </Project>
+  <Project Path="Quiet/Quiet.csproj" Id="ddc524c6-b2e7-4771-879a-940f1eacb5a3">
+    <Deploy />
+  </Project>
   <Project Path="Red/Red.csproj" Id="05e6e86c-e428-4b44-b626-aa641fd3654e">
     <Deploy />
   </Project>
