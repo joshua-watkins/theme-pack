@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>14</LangVersion>
+
+		<!-- VSIX settings -->
+		<VSSDKBuildToolsAutoSetup>true</VSSDKBuildToolsAutoSetup>
+		<CopyBuildOutputToOutputDirectory>False</CopyBuildOutputToOutputDirectory>
+		<CopyOutputSymbolsToOutputDirectory>False</CopyOutputSymbolsToOutputDirectory>
+		<IncludeAssemblyInVSIXContainer>False</IncludeAssemblyInVSIXContainer>
+	</PropertyGroup>
+
+	<!--<ItemGroup>
+		<None Remove="solarized-dualmode.png" />
+		<None Remove="solarized-yinyang.png" />
+		<None Remove="SolarizedDark.pkgdef" />
+		<None Remove="SolarizedLight.pkgdef" />
+		<None Remove="ThemeRegistration.pkgdef" />
+	</ItemGroup>-->
+
+	<ItemGroup>
+		<Content Include="solarized-dualmode.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="solarized-yinyang.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="SolarizedDark.pkgdef">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="SolarizedLight.pkgdef">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="ThemeRegistration.pkgdef">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectCapability Include="CreateVsixContainer" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.14.40265" ExcludeAssets="runtime" />
+		<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="18.5.40034" />
+	</ItemGroup>
+</Project>
