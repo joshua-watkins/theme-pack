@@ -4,6 +4,9 @@
     <File Path="LICENSE.md" />
     <File Path="README.md" />
   </Folder>
+  <Project Path="Red/Red.csproj" Id="05e6e86c-e428-4b44-b626-aa641fd3654e">
+    <Deploy />
+  </Project>
   <Project Path="Solarized/Solarized.csproj">
     <Deploy />
   </Project>
