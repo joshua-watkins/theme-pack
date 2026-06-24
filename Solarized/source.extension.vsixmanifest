@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="Solarized.5daac032-9222-4e74-a896-ce78e827e90c" Version="1.3" Language="en-US" Publisher="Joshua Watkins" />
     <DisplayName>Solarized</DisplayName>
-    <Description>Solarized Light and Dark themes from the Visual Studio Theme Pack.</Description>
+    <Description>Solarized Dark and Light themes from the Visual Studio Theme Pack.</Description>
     <Icon>solarized-yinyang.png</Icon>
     <Tags>theme,solarized</Tags>
   </Metadata>
