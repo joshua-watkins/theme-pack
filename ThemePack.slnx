@@ -4,6 +4,9 @@
     <File Path="LICENSE.md" />
     <File Path="README.md" />
   </Folder>
+  <Project Path="Abyss/Abyss.csproj" Id="4d46ad86-7bf8-4910-a558-4f60ae84ae76">
+    <Deploy />
+  </Project>
   <Project Path="Plus/Plus.csproj" Id="33e681de-cc05-4fef-954d-5bb5b4c3f767">
     <Deploy />
   </Project>
