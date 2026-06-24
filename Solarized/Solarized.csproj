@@ -12,14 +12,6 @@
 		<IncludeAssemblyInVSIXContainer>False</IncludeAssemblyInVSIXContainer>
 	</PropertyGroup>
 
-	<!--<ItemGroup>
-		<None Remove="solarized-dualmode.png" />
-		<None Remove="solarized-yinyang.png" />
-		<None Remove="SolarizedDark.pkgdef" />
-		<None Remove="SolarizedLight.pkgdef" />
-		<None Remove="ThemeRegistration.pkgdef" />
-	</ItemGroup>-->
-
 	<ItemGroup>
 		<Content Include="solarized-dualmode.png">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
