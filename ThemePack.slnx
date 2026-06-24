@@ -25,4 +25,7 @@
   <Project Path="Solarized/Solarized.csproj">
     <Deploy />
   </Project>
+  <Project Path="TomorrowNightBlue/TomorrowNightBlue.csproj" Id="db6bf4ee-ae74-4b0a-85a1-90b4e0876425">
+    <Deploy />
+  </Project>
 </Solution>
