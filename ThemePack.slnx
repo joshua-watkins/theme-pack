@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="LICENSE.md" />
+    <File Path="README.md" />
+  </Folder>
   <Project Path="Solarized/Solarized.csproj">
     <Deploy />
   </Project>
